@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Pyntx app icon: white core with an orbit on a dark circle (monochrome, GitHub-style). -->
+  <circle cx="256" cy="256" r="256" fill="#0d1117"/>
+  <g transform="translate(256 256) rotate(-28)">
+    <!-- whole orbit (its back half ends up behind the core) -->
+    <ellipse rx="190" ry="72" fill="none" stroke="#ffffff" stroke-width="22"/>
+    <!-- the core, with a dark rim so the orbit seems to pass behind it -->
+    <circle r="80" fill="#ffffff" stroke="#0d1117" stroke-width="22"/>
+    <!-- front part of the orbit crossing the core: dark gap only where it overlaps, then white on top -->
+    <path d="M 95 62.4 A 190 72 0 0 1 -95 62.4" fill="none" stroke="#0d1117" stroke-width="50"/>
+    <path d="M 190 0 A 190 72 0 0 1 -190 0" fill="none" stroke="#ffffff" stroke-width="22"/>
+    <!-- a small satellite on the back of the orbit -->
+    <circle cx="155.6" cy="-41.3" r="22" fill="#ffffff" stroke="#0d1117" stroke-width="12"/>
+  </g>
+</svg>
