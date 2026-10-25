@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Wy9s6hX0.js";var t=e();function n({count:e}){return e<=0?null:(0,t.jsx)(`span`,{className:`grid h-5 min-w-5 shrink-0 place-items-center rounded-full bg-accent px-1.5 font-accent text-[0.6875rem] font-bold text-accent-contrast`,children:e>99?`99+`:e})}export{n as t};
