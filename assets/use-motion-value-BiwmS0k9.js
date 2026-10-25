@@ -1,1 +1,0 @@
-import{a as e,n as t}from"./jsx-runtime-Wy9s6hX0.js";import{b as n}from"./react-msF0Cfbk.js";import{i as r,o as i}from"./index-CT9ZLyta.js";var a=e(t(),1);function o(e){let t=i(()=>n(e)),{isStatic:o}=(0,a.useContext)(r);if(o){let[,n]=(0,a.useState)(e);(0,a.useEffect)(()=>t.on(`change`,n),[])}return t}export{o as t};

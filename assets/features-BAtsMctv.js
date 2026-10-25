@@ -1,1 +1,0 @@
-var e={chats:!0,friends:!0,emoji:!0,avatarPhoto:!0,density:!0,calls:!1,video:!1,voiceMessages:!1,attachments:!1,pins:!1,replies:!1,reactions:!1,tundle:!1,servers:!1,serverDiscovery:!1,chatSearch:!1,notifications:!1,sounds:!1,cursorGlow:!1,magneticMessages:!1};function t(t){return e[t]}export{t};
