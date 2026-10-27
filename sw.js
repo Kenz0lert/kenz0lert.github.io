@@ -27,6 +27,18 @@ self.addEventListener('push', (event) => {
         return
       }
       if (visible) return
+      if (data.type === 'reminder') {
+        // «Напомнить» (the server sends it at the chosen time): stays until it is seen
+        await self.registration.showNotification('Напоминание', {
+          body: data.body || 'Ты просил напомнить',
+          tag: `reminder-${data.chatId}-${Date.now()}`,
+          requireInteraction: true,
+          icon: ICON,
+          badge: ICON,
+          data: { url },
+        })
+        return
+      }
       if (data.type === 'call') {
         await self.registration.showNotification(`${data.from} звонит`, {
           body: data.video ? 'Видеозвонок в Pyntx. Нажми, чтобы ответить.' : 'Звонок в Pyntx. Нажми, чтобы ответить.',
