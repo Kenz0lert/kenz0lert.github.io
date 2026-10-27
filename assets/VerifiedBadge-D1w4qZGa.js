@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-C3cWAN_r.js";import{t}from"./useTranslation-DT6kvxEa.js";import{t as n}from"./badge-check-CC9XrlAl.js";var r=e();function i({className:e=`size-4`}){let{t:i}=t();return(0,r.jsx)(n,{className:`shrink-0 text-accent ${e}`,"aria-label":i(`app.verifiedUser`),role:`img`})}export{i as t};
